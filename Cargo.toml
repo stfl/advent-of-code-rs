@@ -1,0 +1,12 @@
+[workspace]
+members = ["challenge/2021/*", "lib/*"]
+
+[workspace.package]
+name = "advent-of-code-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Stefan Lendl"]
+
+[workspace.dependencies]
+rstest = "*"
+regex = "1"

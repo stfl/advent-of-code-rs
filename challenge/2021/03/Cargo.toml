@@ -1,0 +1,11 @@
+[package]
+name = "c21-03"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+read_input = { path = "../../../lib/read_input" }
+regex.workspace = true
+
+[dev-dependencies]
