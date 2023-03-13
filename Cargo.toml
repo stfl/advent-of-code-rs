@@ -1,5 +1,5 @@
 [workspace]
-members = ["challenge/2021/*", "lib/*"]
+members = ["challenge/20*/*", "lib/*"]
 
 [workspace.package]
 name = "advent-of-code-rs"

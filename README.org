@@ -1,0 +1,13 @@
+#+title: Advent of Code in Rust
+
+* Fetch your input from the website
+
+The ~Input~ struct allows fetching the input from the advent of code website.
+To do this you need to set the ~AOC_SESSION_COOKIE~ env variable
+
+This can be done via direnv
+
+~.envrc~
+#+begin_src bash
+export AOC_SESSION_COOKIE=***
+#+end_src

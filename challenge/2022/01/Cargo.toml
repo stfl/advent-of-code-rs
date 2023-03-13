@@ -1,0 +1,9 @@
+[package]
+name = "c22-01"
+version = "0.1.0"
+edition = "2021"
+workspace = "../../.."
+
+[dependencies]
+fetch = { path = "../../../lib/fetch" }
+regex.workspace = true
